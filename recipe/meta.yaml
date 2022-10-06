@@ -30,6 +30,7 @@ requirements:
   run:
     - python
     - mpi4py
+    - openssh   # see https://github.com/open-mpi/ompi/issues/3625
     - numpy
     - scipy
     - matplotlib-base
